@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-styl": "~0.2.0",
+    "grunt-styl": "~0.3.0",
     "grunt-contrib-watch": "~0.5.1",
     "grunt-contrib-jade": "~0.8.0",
     "rework-variant": "git://github.com/rschmukler/node-rework-variant",
