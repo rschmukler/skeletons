@@ -1,0 +1,23 @@
+{
+  "name": "splash-page",
+  "version": "0.0.0",
+  "description": "A splash page starting template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Ryan Schmukler <ryan@slingingcode.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~3.3.4"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-styl": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt-contrib-jade": "~0.8.0",
+    "rework-variant": "git://github.com/rschmukler/node-rework-variant",
+    "rework-shade": "~1.4.2"
+  }
+}
