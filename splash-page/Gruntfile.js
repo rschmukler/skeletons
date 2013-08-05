@@ -26,11 +26,17 @@ module.exports = function(grunt) {
     watch: {
       jade: {
         files: ['jade/*.jade'],
-        tasks: ['jade:compile']
+        tasks: ['jade:compile'],
+        options: {
+          livereload: true
+        }
       },
       styles: {
         files: ['styl/*.styl'],
-        tasks: ['styl:compile']
+        tasks: ['styl:compile'],
+        options: {
+          livereload: true
+        }
       }
     }
   });
